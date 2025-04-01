@@ -9,8 +9,6 @@ export default function Navbar(props) {
     const [show, setShow] = useState(false)
     const [audio, setAudio] = useState(null)
 
-    const audioList = [<PianoAudio />, <GuitarAudio />, <DrumsAudio />]
-
     const box = useRef()
 
     useEffect(() => {
@@ -37,7 +35,7 @@ export default function Navbar(props) {
             x: 500,
             duration: 0.5
         })
-        setAudio(audioList[0])
+        setAudio(<PianoAudio />)
         props.changebg(1)
         const time1 = setTimeout(() => {
             changeShow(!show)
@@ -52,7 +50,7 @@ export default function Navbar(props) {
             x: 500,
             duration: 0.5
         })
-        setAudio(audioList[1])
+        setAudio(<GuitarAudio />)
         props.changebg(2)
         const time1 = setTimeout(() => {
             changeShow(!show)
@@ -67,7 +65,7 @@ export default function Navbar(props) {
             x: 500,
             duration: 0.5
         })
-        setAudio(audioList[2])
+        setAudio(<DrumsAudio />)
         props.changebg(3)
         const time1 = setTimeout(() => {
             changeShow(!show)

@@ -8,11 +8,14 @@ import Drums from "@/component/drums"
 
 export default function Home() {
   const [bg, setbg] = useState(<Default />)
-
-  const list = [<Default />, <Piano />, <Guitar />, <Drums />]
-
   const changeBackground = (e) => {
-    setbg(list[e])
+    if (e === 1) {
+      setbg(<Piano />)
+    } else if (e === 2) {
+      setbg(<Guitar />)
+    } else if (e === 3) {
+      setbg(<Drums />)
+    }
   }
 
   return (
