@@ -1,70 +1,36 @@
-__**Music Instrument Player Web Application**__
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
+First, run the development server:
 
-**Overview**
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-This web application allows users to explore and practice basic music instruments, including drums, piano, and acoustic guitar, in an interactive and user-friendly environment. Designed for beginners, the app aims to provide a fun and educational experience that helps users build foundational knowledge of playing these instruments. Whether you're a complete novice or looking to refine your basic skills, this app serves as a great tool to start your musical journey.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-**Features**
+## Learn More
 
-**_Drum Kit_**: Play a variety of drum sounds using your keyboard or mouse. The drum kit provides realistic drum sounds and is perfect for beginners to learn basic rhythms and patterns.
+To learn more about Next.js, take a look at the following resources:
 
-**_Piano Keyboard_**: Explore the piano with a virtual keyboard that includes a selection of basic notes and chords. Great for learning simple melodies, scales, and familiarizing yourself with musical notation.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**_Acoustic Guitar_**: Strum and pluck a virtual acoustic guitar. The app features basic guitar sounds and offers a simple layout to practice chord shapes and basic strumming patterns.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-**_Interactive Interface_**: The user interface is intuitive and easy to use, making it accessible to anyone interested in learning music, regardless of prior experience.
+## Deploy on Vercel
 
-**_Learning Support_**: The app includes simple visual guides to help you follow along with basic lessons, as well as the option to customize settings like tempo and sound quality.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-
-**Technology Stack**
-
-**_Frontend_**: Built with Next.js using modern web technologies for a responsive and engaging experience.
-
-**_Sound Library_**: Realistic instrument sounds are provided through an open-source sound library, ensuring high-quality audio playback.
-
-**_Interactive Features_**: Implemented with vanilla JavaScript and Web Audio API to provide seamless, interactive musical experiences on desktop but little slower in mobole devices as it contains many large files.
-
-
-
-**How to Use**
-
-**_Drums_**: Click on the drum pads or use your keyboard keys (mapped to each drum) to play. Experiment with different rhythms and beats.
-
-**_Piano_**: Use the virtual piano keyboard by clicking on the keys, or connect a MIDI keyboard if available. You can play notes or simple chords to practice melodies.
-
-**_Guitar_**: Select the guitar strings and use your mouse to click and strum. Learn the basic open chords and experiment with simple rhythms.
-
-
-
-**Target Audience**
-
-**_This app is ideal for_**:
-
-**_Music beginners_**: Anyone wanting to try out an instrument or learn basic skills
-
-
-
-**Installation**
-
-**_To run the app locally_**:
-
-**_Clone the repository_**:
-
-git clone https://github.com/weapon8008/MusicBox.git
-
-
-**_Navigate to the project directory_**:
-
-cd MusicBox
-
-Open the index.html file in your browser to start playing.
-
-**Contributing**
-
-Contributions are welcome! If you have ideas to improve this app, feel free to fork the repository, make changes, and submit a pull request.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
