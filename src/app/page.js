@@ -7,18 +7,18 @@ import Guitar from "@/component/guitar"
 import Drums from "@/component/drums"
 
 export default function Home() {
-  const [bg, setbg] = useState(0)
+  const [bg, setbg] = useState(<Default />)
 
   const list = [<Default />, <Piano />, <Guitar />, <Drums />]
 
   const changeBackground = (e) => {
-    setbg(e)
+    setbg(list[e])
   }
 
   return (
     <div>
       <Navbar changebg={changeBackground} />
-      {list[bg]}
+      {bg}
     </div>
   )
 }

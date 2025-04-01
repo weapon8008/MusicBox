@@ -23,7 +23,7 @@ export default function Default() {
                     <strong>Mu&#119070;ic b&#119241;x</strong> an intrument web appplication
                 </h1>
                 <p className="text-[13px] text-justify">
-                    Welcome to our interactive music platform, where you can unleash your creativity and experience the joy of playing musical instruments! Whether you're a beginner or an experienced musician, our web application allows you to play a virtual piano, guitar, and drums right from your browser.
+                    Welcome to our interactive music platform, where you can unleash your creativity and experience the joy of playing musical instruments! Whether you are a beginner or an experienced musician, our web application allows you to play a virtual piano, guitar, and drums right from your browser.
                 </p>
                 <div className="w-full flex gap-2">
                     <p className="font-semibold text-[13px]">
@@ -46,7 +46,7 @@ export default function Default() {
                         Drums:
                     </p>
                     <p className="text-[13px]">
-                        Tap into your rhythm with a full drum kit. Whether it's a basic beat or a complex pattern, you can drum along to your favorite tunes.
+                        Tap into your rhythm with a full drum kit. Whether it is a basic beat or a complex pattern, you can drum along to your favorite tunes.
                     </p>
                 </div>
                 <div className="mt-5">
@@ -58,7 +58,7 @@ export default function Default() {
                             Step1:
                         </p>
                         <p className="text-[13px]">
-                            Click the "MENU" box in the navbar.
+                            Click the &quot;MENU&quot; box in the navbar.
                         </p>
                     </div>
                     <div className="w-full flex gap-2">
@@ -66,7 +66,7 @@ export default function Default() {
                             Step2:
                         </p>
                         <p className="text-[13px]">
-                            Select the desired instrument from the displayed box after the click of the "MENU" box.
+                            Select the desired instrument from the displayed box after the click of the &quot;MENU&quot; box.
                         </p>
                     </div>
                     <div className="w-full flex gap-2">

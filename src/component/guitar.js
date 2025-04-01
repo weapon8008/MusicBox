@@ -48,10 +48,10 @@ export default function Guitar() {
                     <h1 className='underline text-[18px]'>How to play</h1>
                     <h1>Click the desired tab.</h1>
                     <h1 className='text-center'>Or</h1>
-                    <h1>Press the desired tab's alphabate and number togather.</h1>
+                    <h1>Press the desired tab&apos;s alphabate and number togather.</h1>
                     <div className='flex'>
                         <h1 className='mr-1 underline'>Ex:</h1>
-                        <h1>If 'Y3' then press 'Y' and '3' together.</h1>
+                        <h1>If &apos;Y3&apos; then press &apos;Y&apos; and &apos;3&apos; together.</h1>
                     </div>
                 </div>
                 :
@@ -64,7 +64,7 @@ export default function Guitar() {
                     <div className='flex'>
                         <h1 className='mr-1'>Step2:</h1>
                         <div>
-                            <h1>Press 'D' for down stroke / Press 'U' for up stroke or Click the Up or Down button.</h1>
+                            <h1>Press &apos;D&apos; for down stroke / Press &apos;U&apos; for up stroke or Click the Up or Down button.</h1>
                         </div>
                     </div>
                 </div>
@@ -1033,12 +1033,12 @@ const ChordsGuitar = () => {
                 <button className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
                     Down Stroke
                     <hr></hr>
-                    <p>Press 'D' key</p>
+                    <p>Press &apos;D&apos; key</p>
                 </button>
                 <button className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
                     Up Stroke
                     <hr></hr>
-                    <p>Press 'U' key</p>
+                    <p>Press &apos;U&apos; key</p>
                 </button>
             </div>
         </div>

@@ -8,7 +8,6 @@ import { useGSAP } from '@gsap/react'
 export default function Navbar(props) {
     const [show, setShow] = useState(false)
     const [audio, setAudio] = useState(null)
-    const [bg, setbg] = useState(0)
 
     const audioList = [<PianoAudio />, <GuitarAudio />, <DrumsAudio />]
 
@@ -38,7 +37,7 @@ export default function Navbar(props) {
             x: 500,
             duration: 0.5
         })
-        setAudio(0)
+        setAudio(audioList[0])
         props.changebg(1)
         const time1 = setTimeout(() => {
             changeShow(!show)
@@ -53,7 +52,7 @@ export default function Navbar(props) {
             x: 500,
             duration: 0.5
         })
-        setAudio(1)
+        setAudio(audioList[1])
         props.changebg(2)
         const time1 = setTimeout(() => {
             changeShow(!show)
@@ -68,7 +67,7 @@ export default function Navbar(props) {
             x: 500,
             duration: 0.5
         })
-        setAudio(2)
+        setAudio(audioList[2])
         props.changebg(3)
         const time1 = setTimeout(() => {
             changeShow(!show)
@@ -91,8 +90,9 @@ export default function Navbar(props) {
             {(show) &&
                 <div ref={box} className='fixed z-10 top-0 right-0 w-screen sm:w-[250px] h-screen'>
                     <Popup handleOnClick={changeShow} pianoButton={playPiano} guitarButton={playGuitar} drumsButton={playDrums} />
-                </div>}
-            {audioList[audio]}
+                </div>
+            }
+            {audio}
         </>
     )
 }
