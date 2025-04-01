@@ -666,6 +666,32 @@ const ChordsGuitar = () => {
         const time4 = setTimeout(() => { if (mus5.current) mus5.current.play() }, 200)
         const time5 = setTimeout(() => { if (mus6.current) mus6.current.play() }, 250)
     }
+    const StreamStop = () => {
+        if (mus1.current) {
+            mus1.current.pause()
+            mus1.currentTime = 0
+        }
+        if (mus2.current) {
+            mus2.current.pause()
+            mus2.currentTime = 0
+        }
+        if (mus3.current) {
+            mus3.current.pause()
+            mus3.currentTime = 0
+        }
+        if (mus4.current) {
+            mus4.current.pause()
+            mus4.currentTime = 0
+        }
+        if (mus5.current) {
+            mus5.current.pause()
+            mus5.currentTime = 0
+        }
+        if (mus6.current) {
+            mus6.current.pause()
+            mus6.currentTime = 0
+        }
+    }
     const UpStream = () => {
         const time0 = setTimeout(() => { if (mus6.current) mus6.current.play() }, 0)
         const time1 = setTimeout(() => { if (mus5.current) mus5.current.play() }, 50)
@@ -719,11 +745,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Estop = () => {
         setMusic2dArray(array)
@@ -738,11 +762,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Emstop = () => {
         setMusic2dArray(array)
@@ -757,11 +779,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Astop = () => {
         setMusic2dArray(array)
@@ -776,11 +796,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Amstop = () => {
         setMusic2dArray(array)
@@ -795,11 +813,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Dstop = () => {
         setMusic2dArray(array)
@@ -814,11 +830,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Dmstop = () => {
         setMusic2dArray(array)
@@ -833,11 +847,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Cstop = () => {
         setMusic2dArray(array)
@@ -852,11 +864,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const Gstop = () => {
         setMusic2dArray(array)
@@ -871,11 +881,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const E7stop = () => {
         setMusic2dArray(array)
@@ -890,11 +898,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const D7stop = () => {
         setMusic2dArray(array)
@@ -909,11 +915,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const A7stop = () => {
         setMusic2dArray(array)
@@ -928,11 +932,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
-        down.current.addEventListener('touchstart', keyHandle('d'))
-        down.current.addEventListener('touchstart', keyHandleStop('d'))
+        
         window.addEventListener('keyup', keyHandleStop)
-        up.current.addEventListener('touchstart', keyHandle('u'))
-        up.current.addEventListener('touchstart', keyHandleStop('u'))
+        
     }
     const C7stop = () => {
         setMusic2dArray(array)
@@ -1080,12 +1082,12 @@ const ChordsGuitar = () => {
                 <button onMouseDown={D7play} onMouseUp={D7stop} onMouseLeave={D7stop} onTouchStart={D7play} onTouchEnd={D7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>D7</button>
                 <button onMouseDown={A7play} onMouseUp={A7stop} onMouseLeave={A7stop} onTouchStart={A7play} onTouchEnd={A7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>A7</button>
                 <button onMouseDown={C7play} onMouseUp={C7stop} onMouseLeave={C7stop} onTouchStart={C7play} onTouchEnd={C7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>C7</button>
-                <button ref={down} className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
+                <button ref={down} onTouchStart={DownStream} onTouchEnd={StreamStop} className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
                     Down Stroke
                     <hr></hr>
                     <p>Press &apos;D&apos; key</p>
                 </button>
-                <button ref={up} className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
+                <button ref={up} onTouchStart={UpStream} onTouchEnd={StreamStop} className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
                     Up Stroke
                     <hr></hr>
                     <p>Press &apos;U&apos; key</p>
