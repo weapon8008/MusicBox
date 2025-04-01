@@ -648,6 +648,8 @@ const ChordsGuitar = () => {
     const mus4 = useRef()
     const mus5 = useRef()
     const mus6 = useRef()
+    const down = useRef()
+    const up = useRef()
     const array = [
         [false, false, false, false, false, false],
         [false, false, false, false, false, false],
@@ -717,7 +719,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Estop = () => {
         setMusic2dArray(array)
@@ -732,7 +736,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Emstop = () => {
         setMusic2dArray(array)
@@ -747,7 +753,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Astop = () => {
         setMusic2dArray(array)
@@ -762,7 +770,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Amstop = () => {
         setMusic2dArray(array)
@@ -777,7 +787,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Dstop = () => {
         setMusic2dArray(array)
@@ -792,7 +804,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Dmstop = () => {
         setMusic2dArray(array)
@@ -807,7 +821,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Cstop = () => {
         setMusic2dArray(array)
@@ -822,7 +838,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const Gstop = () => {
         setMusic2dArray(array)
@@ -837,7 +855,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const E7stop = () => {
         setMusic2dArray(array)
@@ -852,7 +872,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const D7stop = () => {
         setMusic2dArray(array)
@@ -867,7 +889,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const A7stop = () => {
         setMusic2dArray(array)
@@ -882,7 +906,9 @@ const ChordsGuitar = () => {
         ]
         setMusic2dArray(newArray)
         window.addEventListener('keydown', keyHandle)
+        down.current.addEventListener('click', DownStream)
         window.addEventListener('keyup', keyHandleStop)
+        up.current.addEventListener('click', UpStream)
     }
     const C7stop = () => {
         setMusic2dArray(array)
@@ -1018,24 +1044,24 @@ const ChordsGuitar = () => {
                 </div>
             </div>
             <div className='mt-5 grid grid-cols-4 gap-2'>
-                <button onMouseDown={Eplay} onMouseUp={Estop} onMouseLeave={Estop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>E</button>
-                <button onMouseDown={Emplay} onMouseUp={Emstop} onMouseLeave={Emstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>Em</button>
-                <button onMouseDown={Aplay} onMouseUp={Astop} onMouseLeave={Astop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>A</button>
-                <button onMouseDown={Amplay} onMouseUp={Amstop} onMouseLeave={Amstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>Am</button>
-                <button onMouseDown={Dplay} onMouseUp={Dstop} onMouseLeave={Dstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>D</button>
-                <button onMouseDown={Dmplay} onMouseUp={Dmstop} onMouseLeave={Dmstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>Dm</button>
-                <button onMouseDown={Cplay} onMouseUp={Cstop} onMouseLeave={Cstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>C</button>
-                <button onMouseDown={Gplay} onMouseUp={Gstop} onMouseLeave={Gstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>G</button>
-                <button onMouseDown={E7play} onMouseUp={E7stop} onMouseLeave={E7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>E7</button>
-                <button onMouseDown={D7play} onMouseUp={D7stop} onMouseLeave={D7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>D7</button>
-                <button onMouseDown={A7play} onMouseUp={A7stop} onMouseLeave={A7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>A7</button>
-                <button onMouseDown={C7play} onMouseUp={C7stop} onMouseLeave={C7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2'>C7</button>
-                <button className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
+                <button onMouseDown={Eplay} onMouseUp={Estop} onMouseLeave={Estop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>E</button>
+                <button onMouseDown={Emplay} onMouseUp={Emstop} onMouseLeave={Emstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>Em</button>
+                <button onMouseDown={Aplay} onMouseUp={Astop} onMouseLeave={Astop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>A</button>
+                <button onMouseDown={Amplay} onMouseUp={Amstop} onMouseLeave={Amstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>Am</button>
+                <button onMouseDown={Dplay} onMouseUp={Dstop} onMouseLeave={Dstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>D</button>
+                <button onMouseDown={Dmplay} onMouseUp={Dmstop} onMouseLeave={Dmstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>Dm</button>
+                <button onMouseDown={Cplay} onMouseUp={Cstop} onMouseLeave={Cstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>C</button>
+                <button onMouseDown={Gplay} onMouseUp={Gstop} onMouseLeave={Gstop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>G</button>
+                <button onMouseDown={E7play} onMouseUp={E7stop} onMouseLeave={E7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>E7</button>
+                <button onMouseDown={D7play} onMouseUp={D7stop} onMouseLeave={D7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>D7</button>
+                <button onMouseDown={A7play} onMouseUp={A7stop} onMouseLeave={A7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>A7</button>
+                <button onMouseDown={C7play} onMouseUp={C7stop} onMouseLeave={C7stop} className='cursor-pointer size-12 mx-auto font-semibold text-2xl text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 hover:border-0'>C7</button>
+                <button ref={down} className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
                     Down Stroke
                     <hr></hr>
                     <p>Press &apos;D&apos; key</p>
                 </button>
-                <button className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
+                <button ref={up} className='cursor-pointer w-full mx-auto font-semibold text-lg text-white text-center bg-gradient-to-br from-amber-600 via-amber-700 to-amber-800 rounded-lg border-2 col-span-2'>
                     Up Stroke
                     <hr></hr>
                     <p>Press &apos;U&apos; key</p>
