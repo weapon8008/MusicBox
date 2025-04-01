@@ -1,8 +1,8 @@
-## **Music Instrument Player Web Application**
+## ## **Music Instrument Player Web Application**
 
 
 
-**Overview**
+## **Overview**
 
 This web application allows users to explore and practice basic music instruments, including drums, piano, and acoustic guitar, in an interactive and user-friendly environment. Designed for beginners, the app aims to provide a fun and educational experience that helps users build foundational knowledge of playing these instruments. Whether you're a complete novice or looking to refine your basic skills, this app serves as a great tool to start your musical journey.
 
@@ -10,15 +10,15 @@ This web application allows users to explore and practice basic music instrument
 
 **Features**
 
-**_Drum Kit_**: Play a variety of drum sounds using your keyboard or mouse. The drum kit provides realistic drum sounds and is perfect for beginners to learn basic rhythms and patterns.
+**Drum Kit**:  Play a variety of drum sounds using your keyboard or mouse. The drum kit provides realistic drum sounds and is perfect for beginners to learn basic rhythms and patterns.
 
-**_Piano Keyboard_**: Explore the piano with a virtual keyboard that includes a selection of basic notes and chords. Great for learning simple melodies, scales, and familiarizing yourself with musical notation.
+**Piano Keyboard**:  Explore the piano with a virtual keyboard that includes a selection of basic notes and chords. Great for learning simple melodies, scales, and familiarizing yourself with musical notation.
 
-**_Acoustic Guitar_**: Strum and pluck a virtual acoustic guitar. The app features basic guitar sounds and offers a simple layout to practice chord shapes and basic strumming patterns.
+**Acoustic Guitar**:  Strum and pluck a virtual acoustic guitar. The app features basic guitar sounds and offers a simple layout to practice chord shapes and basic strumming patterns.
 
-**_Interactive Interface_**: The user interface is intuitive and easy to use, making it accessible to anyone interested in learning music, regardless of prior experience.
+**Interactive Interface**:  The user interface is intuitive and easy to use, making it accessible to anyone interested in learning music, regardless of prior experience.
 
-**_Learning Support_**: The app includes simple visual guides to help you follow along with basic lessons, as well as the option to customize settings like tempo and sound quality.
+**Learning Support**: The app includes simple visual guides to help you follow along with basic lessons, as well as the option to customize settings like tempo and sound quality.
 
 
 
