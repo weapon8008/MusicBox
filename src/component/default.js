@@ -13,7 +13,7 @@ export default function Default() {
     }
     return (
         <div className={`h-screen ${(audio) ? 'bg-video' : 'bg-static'}`}>
-            <audio ref={music} loop src='/instruments/Mama Can You Hear Me.mp3' />
+            <audio ref={music} loop src='./instruments/Mama Can You Hear Me.mp3' />
             <div className="absolute bottom-5 lg:bottom-10 w-full sm:w-[500px] lg:w-[700px] p-3 bg-[#000000a3] text-white font-serif border-y-2 sm:border-y-2 sm:border-r-2 border-white">
                 <div className="text-[25px] text-center font-bold">
                     <h1>Play the background Music</h1>

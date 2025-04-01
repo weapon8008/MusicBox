@@ -4,31 +4,31 @@
     background-color: #121212;
 }
 .bg-static {
-    background-image: url('/wallpaper/videobgstatic.png');
+    background-image: url('./wallpaper/videobgstatic.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .bg-video {
-    background-image: url('/wallpaper/videobg.gif');
+    background-image: url('./wallpaper/videobg.gif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .bg-piano {
-    background-image: url('/wallpaper/piano_wallpaper.jpg');
+    background-image: url('./wallpaper/piano_wallpaper.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .bg-guitar {
-    background-image: url('/wallpaper/guitar_wallpaper.jpg');
+    background-image: url('./wallpaper/guitar_wallpaper.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .bg-drums {
-    background-image: url('/wallpaper/drums_wallpaper.jpg');
+    background-image: url('./wallpaper/drums_wallpaper.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

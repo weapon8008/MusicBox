@@ -92,7 +92,7 @@ const F2 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/F2.mp3' />
+            <audio ref={music} loop src='./piano/F2.mp3' />
             <h1 className='text-[25px] font-bold'>Q</h1>
         </button>
     )
@@ -129,7 +129,7 @@ const G2 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/G2.mp3' />
+            <audio ref={music} loop src='./piano/G2.mp3' />
             <h1 className='text-[25px] font-bold'>W</h1>
         </button>
     )
@@ -166,7 +166,7 @@ const Gb2 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Gb2.mp3' />
+            <audio ref={music} loop src='./piano/Gb2.mp3' />
             <h1 className='text-[20px] text-white font-bold'>1</h1>
         </button>
     )
@@ -203,7 +203,7 @@ const A3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/A3.mp3' />
+            <audio ref={music} loop src='./piano/A3.mp3' />
             <h1 className='text-[25px] font-bold'>E</h1>
         </button>
     )
@@ -240,7 +240,7 @@ const Ab3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Ab3.mp3' />
+            <audio ref={music} loop src='./piano/Ab3.mp3' />
             <h1 className='text-[20px] text-white font-bold'>2</h1>
         </button>
     )
@@ -277,7 +277,7 @@ const B3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/B3.mp3' />
+            <audio ref={music} loop src='./piano/B3.mp3' />
             <h1 className='text-[25px] font-bold'>R</h1>
         </button>
     )
@@ -314,7 +314,7 @@ const Bb3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Bb3.mp3' />
+            <audio ref={music} loop src='./piano/Bb3.mp3' />
             <h1 className='text-[20px] text-white font-bold'>3</h1>
         </button>
     )
@@ -351,7 +351,7 @@ const C3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/C3.mp3' />
+            <audio ref={music} loop src='./piano/C3.mp3' />
             <h1 className='text-[25px] font-bold'>T</h1>
         </button>
     )
@@ -388,7 +388,7 @@ const D3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/D3.mp3' />
+            <audio ref={music} loop src='./piano/D3.mp3' />
             <h1 className='text-[25px] font-bold'>Y</h1>
         </button>
     )
@@ -425,7 +425,7 @@ const Db3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Db3.mp3' />
+            <audio ref={music} loop src='./piano/Db3.mp3' />
             <h1 className='text-[20px] text-white font-bold'>4</h1>
         </button>
     )
@@ -462,7 +462,7 @@ const E3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/E3.mp3' />
+            <audio ref={music} loop src='./piano/E3.mp3' />
             <h1 className='text-[25px] font-bold'>U</h1>
         </button>
     )
@@ -499,7 +499,7 @@ const Eb3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Eb3.mp3' />
+            <audio ref={music} loop src='./piano/Eb3.mp3' />
             <h1 className='text-[20px] text-white font-bold'>5</h1>
         </button>
     )
@@ -536,7 +536,7 @@ const F3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/F3.mp3' />
+            <audio ref={music} loop src='./piano/F3.mp3' />
             <h1 className='text-[25px] font-bold'>I</h1>
         </button>
     )
@@ -573,7 +573,7 @@ const G3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/G3.mp3' />
+            <audio ref={music} loop src='./piano/G3.mp3' />
             <h1 className='text-[25px] font-bold'>O</h1>
         </button>
     )
@@ -610,7 +610,7 @@ const Gb3 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Gb3.mp3' />
+            <audio ref={music} loop src='./piano/Gb3.mp3' />
             <h1 className='text-[20px] text-white font-bold'>6</h1>
         </button>
     )
@@ -647,7 +647,7 @@ const A4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/A4.mp3' />
+            <audio ref={music} loop src='./piano/A4.mp3' />
             <h1 className='text-[25px] font-bold'>P</h1>
         </button>
     )
@@ -684,7 +684,7 @@ const Ab4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Ab4.mp3' />
+            <audio ref={music} loop src='./piano/Ab4.mp3' />
             <h1 className='text-[20px] text-white font-bold'>7</h1>
         </button>
     )
@@ -721,7 +721,7 @@ const B4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/B4.mp3' />
+            <audio ref={music} loop src='./piano/B4.mp3' />
             <h1 className='text-[25px] font-bold'>A</h1>
         </button>
     )
@@ -758,7 +758,7 @@ const Bb4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Bb4.mp3' />
+            <audio ref={music} loop src='./piano/Bb4.mp3' />
             <h1 className='text-[20px] text-white font-bold'>8</h1>
         </button>
     )
@@ -795,7 +795,7 @@ const C4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/C4.mp3' />
+            <audio ref={music} loop src='./piano/C4.mp3' />
             <h1 className='text-[25px] font-bold'>S</h1>
         </button>
     )
@@ -832,7 +832,7 @@ const D4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/D4.mp3' />
+            <audio ref={music} loop src='./piano/D4.mp3' />
             <h1 className='text-[25px] font-bold'>D</h1>
         </button>
     )
@@ -869,7 +869,7 @@ const Db4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Db4.mp3' />
+            <audio ref={music} loop src='./piano/Db4.mp3' />
             <h1 className='text-[20px] text-white font-bold'>9</h1>
         </button>
     )
@@ -906,7 +906,7 @@ const E4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/E4.mp3' />
+            <audio ref={music} loop src='./piano/E4.mp3' />
             <h1 className='text-[25px] font-bold'>F</h1>
         </button>
     )
@@ -943,7 +943,7 @@ const Eb4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#222222]' : 'bg-[#000000]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/Eb4.mp3' />
+            <audio ref={music} loop src='./piano/Eb4.mp3' />
             <h1 className='text-[20px] text-white font-bold'>0</h1>
         </button>
     )
@@ -980,7 +980,7 @@ const F4 = () => {
     }
     return (
         <button onMouseDown={start} onMouseUp={stop} onMouseLeave={stop} className={`cursor-pointer size-full ${(!click) ? 'bg-[#E5E5E5]' : 'bg-[#c6c3c3]'} border-2 rounded-b-full ${(!click) ? 'shadow-[0px_6px_0px_#222222]' : 'shadow-[0px_2px_0px_#222222]'}`}>
-            <audio ref={music} loop src='/piano/F4.mp3' />
+            <audio ref={music} loop src='./piano/F4.mp3' />
             <h1 className='text-[25px] font-bold'>G</h1>
         </button>
     )
