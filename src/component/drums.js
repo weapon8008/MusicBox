@@ -111,7 +111,7 @@ const BassDrum = (props) => {
     }
     return (
         <div className='w-full'>
-            <audio ref={music} src='./drums/beats/bass-drum.mp3' />
+            <audio ref={music} src='/drums/beats/bass-drum.mp3' />
             <button onClick={play} className='duration-100 cursor-pointer hover:scale-105 w-full'>
                 <Image className='w-full' width={100} height={100} src={'/drums/set/bass-drum.png'} alt='bass drum' />
             </button>
@@ -160,8 +160,8 @@ const SnareDrum = (props) => {
     }
     return (
         <div className='w-full'>
-            <audio ref={music1} src='./drums/beats/snare-drum-1.mp3' />
-            <audio ref={music2} src='./drums/beats/snare-drum-2.mp3' />
+            <audio ref={music1} src='/drums/beats/snare-drum-1.mp3' />
+            <audio ref={music2} src='/drums/beats/snare-drum-2.mp3' />
             <div className='flex items-center justify-center'>
                 <button onClick={play1} className='duration-100 cursor-pointer mr-1 size-12 bg-white hover:bg-black hover:text-white border-4 rounded-xl'>
                     <h1 className='font-bold text-center text-4xl'>J</h1>
@@ -215,8 +215,8 @@ const HitHat = (props) => {
     }
     return (
         <div className='w-full'>
-            <audio ref={music1} src='./drums/beats/hit-hat-1.mp3' />
-            <audio ref={music2} src='./drums/beats/hit-hat-2.mp3' />
+            <audio ref={music1} src='/drums/beats/hit-hat-1.mp3' />
+            <audio ref={music2} src='/drums/beats/hit-hat-2.mp3' />
             <button onClick={play1} className='duration-100 cursor-pointer hover:scale-105 w-full'>
                 <Image className='w-full' width={100} height={100} src={'/drums/set/hit-hat.png'} alt='bass drum' />
             </button>
@@ -270,8 +270,8 @@ const TomDrum = (props) => {
     }
     return (
         <div className='w-full'>
-            <audio ref={music1} src='./drums/beats/tom-drum.mp3' />
-            <audio ref={music2} src='./drums/beats/tom-drum.mp3' />
+            <audio ref={music1} src='/drums/beats/tom-drum.mp3' />
+            <audio ref={music2} src='/drums/beats/tom-drum.mp3' />
             <div className='flex items-center justify-center'>
                 <button onClick={play1} className='duration-100 cursor-pointer ml-10 mr-2 size-12 bg-white hover:bg-black hover:text-white border-4 rounded-xl'>
                     <h1 className='font-bold text-center text-4xl'>R</h1>
@@ -310,7 +310,7 @@ const Cymbals = (props) => {
     }
     return (
         <div className='w-full'>
-            <audio ref={music} src='./drums/beats/cymbal.mp3' />
+            <audio ref={music} src='/drums/beats/cymbal.mp3' />
             <button onClick={play} className='duration-100 cursor-pointer size-12 ml-16 bg-white hover:bg-black hover:text-white border-4 rounded-xl'>
                 <h1 className='font-bold text-center text-4xl'>O</h1>
             </button>

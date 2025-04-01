@@ -910,7 +910,7 @@ const ChordsGuitar = () => {
                     <div className='relative'>
                         <div className='w-[6px] h-full mx-auto bg-white'></div>
                         <div className='absolute top-0 w-full h-full'>
-                            {(music2dArray[0][0]) && <audio ref={mus1} src='./guitar/E2.wav' />}
+                            {(music2dArray[0][0]) && <audio ref={mus1} src='/guitar/E2.wav' />}
                             <div className='w-full h-[28%] flex items-center justify-center'>
                                 {(music2dArray[1][0]) && <CordMusic playAudio={mus1} tab='F2' />}
                             </div>
@@ -928,7 +928,7 @@ const ChordsGuitar = () => {
                     <div className='relative'>
                         <div className='w-[5px] h-full mx-auto bg-white'></div>
                         <div className='absolute top-0 w-full h-full'>
-                            {(music2dArray[0][1]) && <audio ref={mus2} src='./guitar/A2.wav' />}
+                            {(music2dArray[0][1]) && <audio ref={mus2} src='/guitar/A2.wav' />}
                             <div className='w-full h-[28%] flex items-center justify-center'>
                                 {(music2dArray[1][1]) && <CordMusic playAudio={mus2} tab='Ab2' />}
                             </div>
@@ -946,7 +946,7 @@ const ChordsGuitar = () => {
                     <div className='relative'>
                         <div className='w-[4px] h-full mx-auto bg-white'></div>
                         <div className='absolute left-0 top-0 w-full h-full'>
-                            {(music2dArray[0][2]) && <audio ref={mus3} src='./guitar/D3.wav' />}
+                            {(music2dArray[0][2]) && <audio ref={mus3} src='/guitar/D3.wav' />}
                             <div className='w-full h-[28%] flex items-center justify-center'>
                                 {(music2dArray[1][2]) && <CordMusic playAudio={mus3} tab='Db3' />}
                             </div>
@@ -964,7 +964,7 @@ const ChordsGuitar = () => {
                     <div className='relative'>
                         <div className='w-[3px] h-full mx-auto bg-white'></div>
                         <div className='absolute left-0 top-0 w-full h-full'>
-                            {(music2dArray[0][3]) && <audio ref={mus4} src='./guitar/G3.wav' />}
+                            {(music2dArray[0][3]) && <audio ref={mus4} src='/guitar/G3.wav' />}
                             <div className='w-full h-[28%] flex items-center justify-center'>
                                 {(music2dArray[1][3]) && <CordMusic playAudio={mus4} tab='Gb3' />}
                             </div>
@@ -982,7 +982,7 @@ const ChordsGuitar = () => {
                     <div className='relative'>
                         <div className='w-[2px] h-full mx-auto bg-white'></div>
                         <div className='absolute left-0 top-0 w-full h-full'>
-                            {(music2dArray[0][4]) && <audio ref={mus5} src='./guitar/B3.wav' />}
+                            {(music2dArray[0][4]) && <audio ref={mus5} src='/guitar/B3.wav' />}
                             <div className='w-full h-[28%] flex items-center justify-center'>
                                 {(music2dArray[1][4]) && <CordMusic playAudio={mus5} tab='C4' />}
                             </div>
@@ -1000,7 +1000,7 @@ const ChordsGuitar = () => {
                     <div className='relative'>
                         <div className='w-[1px] h-full mx-auto bg-white'></div>
                         <div className='absolute left-0 top-0 w-full h-full'>
-                            {(music2dArray[0][5]) && <audio ref={mus6} src='./guitar/E4.wav' />}
+                            {(music2dArray[0][5]) && <audio ref={mus6} src='/guitar/E4.wav' />}
                             <div className='w-full h-[28%] flex items-center justify-center'>
                                 {(music2dArray[1][5]) && <CordMusic playAudio={mus6} tab='F4' />}
                             </div>
@@ -1096,7 +1096,7 @@ const A2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/A2.wav' />
+            <audio ref={music} src='/guitar/A2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1146,7 +1146,7 @@ const Ab2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Ab2.wav' />
+            <audio ref={music} src='/guitar/Ab2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1196,7 +1196,7 @@ const B2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/B2.wav' />
+            <audio ref={music} src='/guitar/B2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1246,7 +1246,7 @@ const E2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/E2.wav' />
+            <audio ref={music} src='/guitar/E2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1296,7 +1296,7 @@ const F2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/F2.wav' />
+            <audio ref={music} src='/guitar/F2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1346,7 +1346,7 @@ const Fb2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Fb2.wav' />
+            <audio ref={music} src='/guitar/Fb2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1396,7 +1396,7 @@ const G2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/G2.wav' />
+            <audio ref={music} src='/guitar/G2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1446,7 +1446,7 @@ const Gb2 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Gb2.wav' />
+            <audio ref={music} src='/guitar/Gb2.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1496,7 +1496,7 @@ const A3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/A3.wav' />
+            <audio ref={music} src='/guitar/A3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1546,7 +1546,7 @@ const Ab3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Ab3.wav' />
+            <audio ref={music} src='/guitar/Ab3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1596,7 +1596,7 @@ const B3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/B3.wav' />
+            <audio ref={music} src='/guitar/B3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1646,7 +1646,7 @@ const C3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/C3.wav' />
+            <audio ref={music} src='/guitar/C3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1696,7 +1696,7 @@ const Cb3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Cb3.wav' />
+            <audio ref={music} src='/guitar/Cb3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1746,7 +1746,7 @@ const D3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/D3.wav' />
+            <audio ref={music} src='/guitar/D3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1796,7 +1796,7 @@ const Db3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Db3.wav' />
+            <audio ref={music} src='/guitar/Db3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1846,7 +1846,7 @@ const E3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/E3.wav' />
+            <audio ref={music} src='/guitar/E3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1896,7 +1896,7 @@ const F3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/F3.wav' />
+            <audio ref={music} src='/guitar/F3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1946,7 +1946,7 @@ const Fb3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Fb3.wav' />
+            <audio ref={music} src='/guitar/Fb3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -1996,7 +1996,7 @@ const G3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/G3.wav' />
+            <audio ref={music} src='/guitar/G3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2046,7 +2046,7 @@ const Gb3 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Gb3.wav' />
+            <audio ref={music} src='/guitar/Gb3.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2096,7 +2096,7 @@ const A4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/A4.wav' />
+            <audio ref={music} src='/guitar/A4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2146,7 +2146,7 @@ const Ab4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Ab4.wav' />
+            <audio ref={music} src='/guitar/Ab4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2196,7 +2196,7 @@ const B4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/B4.wav' />
+            <audio ref={music} src='/guitar/B4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2246,7 +2246,7 @@ const C4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/C4.wav' />
+            <audio ref={music} src='/guitar/C4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2296,7 +2296,7 @@ const Cb4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Cb4.wav' />
+            <audio ref={music} src='/guitar/Cb4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2346,7 +2346,7 @@ const D4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/D4.wav' />
+            <audio ref={music} src='/guitar/D4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2396,7 +2396,7 @@ const Db4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Db4.wav' />
+            <audio ref={music} src='/guitar/Db4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2446,7 +2446,7 @@ const E4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/E4.wav' />
+            <audio ref={music} src='/guitar/E4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2496,7 +2496,7 @@ const F4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/F4.wav' />
+            <audio ref={music} src='/guitar/F4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2546,7 +2546,7 @@ const Fb4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Fb4.wav' />
+            <audio ref={music} src='/guitar/Fb4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2596,7 +2596,7 @@ const G4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/G4.wav' />
+            <audio ref={music} src='/guitar/G4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2646,7 +2646,7 @@ const Gb4 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Gb4.wav' />
+            <audio ref={music} src='/guitar/Gb4.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2696,7 +2696,7 @@ const C5 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/C5.wav' />
+            <audio ref={music} src='/guitar/C5.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2746,7 +2746,7 @@ const Cb5 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Cb5.wav' />
+            <audio ref={music} src='/guitar/Cb5.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2796,7 +2796,7 @@ const D5 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/D5.wav' />
+            <audio ref={music} src='/guitar/D5.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2846,7 +2846,7 @@ const Db5 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/Db5.wav' />
+            <audio ref={music} src='/guitar/Db5.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
@@ -2896,7 +2896,7 @@ const E5 = (props) => {
     }
     return (
         <button className={`cursor-pointer w-full h-full flex items-center justify-center`} onClick={play}>
-            <audio ref={music} src='./guitar/E5.wav' />
+            <audio ref={music} src='/guitar/E5.wav' />
             <h1 className={`size-7 text-[15px] ${(click) ? 'text-white bg-black' : 'bg-white text-black'} font-bold flex items-center justify-center rounded-full border-2`}>{props.text}{props.number}</h1>
         </button>
     )
