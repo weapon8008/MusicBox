@@ -55,7 +55,7 @@ export default function Guitar() {
                     </div>
                 </div>
                 :
-                <div ref={details} className='absolute bottom-0 left-0 w-full px-2 bg-[#000000aa] text-white text-[12px] border rounded-lg'>
+                <div ref={details} className='absolute z-0 bottom-0 left-0 w-full px-2 bg-[#000000aa] text-white text-[12px] border rounded-lg'>
                     <h1 className='underline text-[15px]'>How to play</h1>
                     <div className='flex'>
                         <h1 className='mr-1'>Step1:</h1>
