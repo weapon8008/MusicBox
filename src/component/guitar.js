@@ -32,7 +32,7 @@ export default function Guitar() {
     }
     return (
         <div ref={background} className="h-screen bg-guitar flex items-center justify-center overflow-hidden">
-            <div ref={instrument} className='respective md:w-screen h-screen md:h-max'>
+            <div ref={instrument} className='respective z-20 md:w-screen h-screen md:h-max'>
                 <div className='w-max md:w-max mx-auto'>
                     <button onClick={cordsClick} className={`duration-100 cursor-pointer size-20 md:my-1 md:mr-8 text-white hover:text-yellow-300 text-lg font-black bg-gradient-to-bl from-orange-700 via-amber-600 to-orange-700 rounded-2xl ${(!defaultGuitar) && 'border-t-2 border-l-2 border-b-4 border-r-6 border-amber-800 shadow-[3px_3px_10px_#000000]'}`}>
                         Chords
